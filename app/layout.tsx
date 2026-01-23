@@ -5,6 +5,7 @@ import Footer from '@/components/layout/Footer'
 import WhatsAppFloat from '@/components/ui/WhatsAppFloat'
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://workroomco.com'),
   title: 'Workroomco - Design. Develop. Craft. Create',
   description: 'Premium creative services including web development, UI/UX design, graphic design, and handmade crafts. Custom solutions for your business needs.',
   keywords: 'web development, UI/UX design, graphic design, handmade crafts, custom orders, creative services',
@@ -16,7 +17,7 @@ export const metadata: Metadata = {
     siteName: 'Workroomco',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/logo.jpeg',
         width: 1200,
         height: 630,
       },
@@ -28,7 +29,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Workroomco - Creative Services',
     description: 'Design. Develop. Craft. Create — All Under One Roof.',
-    images: ['/og-image.jpg'],
+    images: ['/logo.jpeg'],
   },
   robots: {
     index: true,
