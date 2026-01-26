@@ -61,7 +61,7 @@ const AboutProcess = () => {
             >
               {/* Connection Line */}
               {index < steps.length - 1 && (
-                <div className="hidden lg:block absolute top-8 left-full w-full h-0.5 bg-gradient-to-r from-brand-pink to-brand-yellow transform translate-x-4 z-0"></div>
+                <div className="hidden lg:block absolute top-8 left-1/2  w-full h-0.5 bg-gradient-to-r from-brand-pink to-brand-yellow -z-10"></div>
               )}
 
               <div className="relative z-10 text-center">
@@ -71,9 +71,7 @@ const AboutProcess = () => {
                     <step.icon className="text-white" size={24} />
                   </div>
                   <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-20 h-20 bg-white rounded-full border-4 border-gray-100"></div>
-                  <div className="absolute -top-2 -right-2 w-6 h-6 bg-brand-dark rounded-full flex items-center justify-center text-white text-xs font-bold z-20">
-                    {index + 1}
-                  </div>
+                
                 </div>
 
                 {/* Content */}

@@ -30,20 +30,24 @@ const Navbar = () => {
     <motion.nav
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      className={`fixed top-0 left-0 right-0 z-50  transition-all duration-300 ${
-        scrolled ? 'bg-white/95 backdrop-blur-md shadow-lg' : 'bg-transparent'
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50  transition-all duration-300 ${scrolled ? 'bg-white/95 backdrop-blur-md shadow-lg' : 'bg-transparent'
+        }`}
     >
       <div className="container-custom">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-3">
             <Image
-              src="/logo.jpeg"
+              src="/logo.png"
               alt="Workroomco Logo"
-              width={56}
-              height={56}
-              className="w-12 h-12 md:w-14 md:h-14 rounded-full object-cover"
+              // 1. INCREASED PROPS: This tells Next.js to keep more pixels (Retina quality)
+              width={200}
+              height={200}
+              // 2. INCREASED SIZE: Changed w-12 (48px) to w-16 (64px) or w-20 (80px)
+              // 3. ADDED PRIORITY: Loads the logo instantly without flickering
+              className="w-16 h-16 md:w-20 md:h-20 rounded-full object-cover"
+              quality={100}
+              priority
             />
             <span className="text-2xl md:text-3xl font-playfair font-bold text-brand-dark">
               Workroomco

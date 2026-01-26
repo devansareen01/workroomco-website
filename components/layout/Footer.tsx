@@ -11,11 +11,15 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-3 mb-4">
               <Image
-                src="/logo.jpeg"
+                src="/logo.png"
                 alt="Workroomco Logo"
-                width={48}
-                height={48}
-                className="w-12 h-12 rounded-full object-cover"
+                // 1. INCREASED RESOLUTION PROPS (Crispness)
+                width={200}   
+                height={200}
+                // 2. INCREASED VISIBLE SIZE (Visibility)
+                className="w-16 h-16 md:w-20 md:h-20 rounded-full object-cover"
+                // 3. MAX QUALITY
+                quality={100}
               />
               <span className="text-3xl font-playfair font-bold">Workroomco</span>
             </div>
@@ -33,7 +37,7 @@ const Footer = () => {
                 <Twitter size={24} />
               </a>
             </div>
-          </div>
+          </div>d
 
           {/* Quick Links */}
           <div>

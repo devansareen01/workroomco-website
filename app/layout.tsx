@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     siteName: 'Workroomco',
     images: [
       {
-        url: '/logo.jpeg',
+        url: '/logo.png',
         width: 1200,
         height: 630,
       },
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Workroomco - Creative Services',
     description: 'Design. Develop. Craft. Create — All Under One Roof.',
-    images: ['/logo.jpeg'],
+    images: ['/logo.png'],
   },
   robots: {
     index: true,

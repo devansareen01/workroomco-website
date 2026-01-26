@@ -15,7 +15,7 @@ const HeroSection = () => {
               animate={{ rotate: 360 }}
               transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
               className="absolute top-1/4 left-1/4 w-32 h-32 md:w-64 md:h-64 bg-primary-pink/10 rounded-full blur-3xl"
-              style={{ 
+              style={{
                 maxWidth: 'min(40vw, 300px)',
                 maxHeight: 'min(40vw, 300px)'
               }}
@@ -24,7 +24,7 @@ const HeroSection = () => {
               animate={{ rotate: -360 }}
               transition={{ duration: 25, repeat: Infinity, ease: "linear" }}
               className="absolute bottom-1/4 right-1/4 w-40 h-40 md:w-80 md:h-80 bg-brand-yellow/10 rounded-full blur-3xl"
-              style={{ 
+              style={{
                 maxWidth: 'min(50vw, 400px)',
                 maxHeight: 'min(50vw, 400px)'
               }}
@@ -43,17 +43,17 @@ const HeroSection = () => {
             className="w-full max-w-4xl mx-auto"
           >
             {/* Badge */}
-        <motion.div
-  initial={{ opacity: 0, scale: 0.8 }}
-  animate={{ opacity: 1, scale: 1 }}
-  transition={{ delay: 0.2, duration: 0.6 }}
-  className="inline-flex items-center space-x-2 bg-white/80 backdrop-blur-sm px-4 py-2 sm:px-6 sm:py-3 rounded-full mt-16 sm:mt-8 mb-6 sm:mb-8 shadow-lg"
->
-  <Sparkles className="text-brand-yellow w-4 h-4 sm:w-5 sm:h-5" />
-  <span className="text-brand-dark font-medium text-sm sm:text-base">
-    Premium Creative Services
-  </span>
-</motion.div>
+            <motion.div
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ delay: 0.2, duration: 0.6 }}
+              className="inline-flex items-center space-x-2 bg-white/80 backdrop-blur-sm px-4 py-2 sm:px-6 sm:py-3 rounded-full mt-16 sm:mt-8 mb-6 sm:mb-8 shadow-lg"
+            >
+              <Sparkles className="text-brand-yellow w-4 h-4 sm:w-5 sm:h-5" />
+              <span className="text-brand-dark font-medium text-sm sm:text-base">
+                Premium Creative Services
+              </span>
+            </motion.div>
 
             {/* Main Heading */}
             <motion.h1
@@ -78,23 +78,28 @@ const HeroSection = () => {
             </motion.p>
 
             {/* CTA Buttons */}
+            {/* CTA Buttons */}
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.8, duration: 0.8 }}
               className="flex flex-col sm:flex-row gap-4 justify-center items-center w-full"
             >
-              <Link 
-                href="/services" 
-                className="btn-primary group w-full sm:w-auto"
+              {/* Primary Button: View Services */}
+              <Link
+                href="/services"
+                className="bg-gradient-to-r from-brand-pink to-brand-yellow text-white py-4 rounded-full font-medium transition-all duration-300 hover:shadow-lg hover:scale-105 group flex justify-center items-center w-full"
                 style={{ maxWidth: '200px' }}
               >
                 View Services
                 <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
               </Link>
-              <Link 
-                href="/contact" 
-                className="btn-secondary w-full sm:w-auto"
+
+              {/* Secondary Button: Get Quote */}
+              <Link
+                href="/contact"
+                // I changed 'border-white' to 'border-brand-pink' so it is visible on your light background
+                className="border-2 border-brand-pink text-brand-pink py-4 rounded-full font-medium transition-all duration-300 hover:bg-brand-pink hover:text-white flex justify-center items-center w-full"
                 style={{ maxWidth: '200px' }}
               >
                 Get Quote

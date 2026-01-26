@@ -6,28 +6,28 @@ import { Lightbulb, Palette, Code, Truck } from 'lucide-react'
 const ProcessSection = () => {
   const steps = [
     {
-      number: '01',
+      number: '1',
       title: 'Idea',
       icon: Lightbulb,
       description: 'We start by understanding your vision, goals, and requirements through detailed consultation.',
       color: 'from-blue-500 to-purple-600'
     },
     {
-      number: '02',
+      number: '2',
       title: 'Design',
       icon: Palette,
       description: 'Our creative team develops concepts, wireframes, and designs that bring your ideas to life.',
       color: 'from-pink-500 to-rose-600'
     },
     {
-      number: '03',
+      number: '3',
       title: 'Develop',
       icon: Code,
       description: 'We build, craft, or code your project using the best practices and premium materials.',
       color: 'from-green-500 to-emerald-600'
     },
     {
-      number: '04',
+      number: '4',
       title: 'Deliver',
       icon: Truck,
       description: 'Final testing, quality assurance, and delivery of your completed project with full support.',
@@ -55,8 +55,10 @@ const ProcessSection = () => {
 
         <div className="relative">
           {/* Timeline Line */}
-          <div className="hidden lg:block absolute top-1/2 left-0 right-0 h-0.5 bg-gradient-to-r from-brand-pink to-brand-yellow transform -translate-y-1/2"></div>
-
+   
+          <div
+            className="hidden lg:block absolute top-12 left-0 right-0 h-0.5 bg-gradient-to-r from-brand-pink to-brand-yellow transform -translate-y-1/2 -z-10"
+          ></div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {steps.map((step, index) => (
               <motion.div
@@ -74,7 +76,7 @@ const ProcessSection = () => {
                       <step.icon className="text-white" size={28} />
                     </div>
                     <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-24 h-24 bg-white rounded-full border-4 border-gray-100"></div>
-                    <div className="absolute -top-2 -right-2 w-8 h-8 bg-brand-yellow rounded-full flex items-center justify-center text-white text-sm font-bold z-20">
+                    <div className="absolute -top-2 left-12 w-8 h-8 bg-brand-yellow rounded-full flex items-center justify-center text-white text-sm font-bold z-20">
                       {step.number}
                     </div>
                   </div>

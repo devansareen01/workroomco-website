@@ -4,7 +4,7 @@ export const organizationSchema = {
   "name": "Workroomco",
   "description": "Creative services including web development, UI/UX design, graphic design, and handmade crafts",
   "url": "https://workroomco.com",
-  "logo": "https://workroomco.com/logo.jpeg",
+  "logo": "https://workroomco.com/logo.png",
   "contactPoint": {
     "@type": "ContactPoint",
     "telephone": "+91-6239684682",
