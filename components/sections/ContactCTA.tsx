@@ -6,7 +6,8 @@ import { ArrowRight, Sparkles } from 'lucide-react'
 
 const ContactCTA = () => {
   return (
-    <section className="section-padding bg-gradient-to-r from-primary-charcoal via-gray-900 to-primary-charcoal text-white relative overflow-hidden">
+    <section className="section-padding bg-gradient-to-r from-neutral-900 via-neutral-800 to-neutral-900 text-white relative overflow-hidden
+">
       {/* Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         <motion.div
@@ -17,7 +18,7 @@ const ContactCTA = () => {
         <motion.div
           animate={{ rotate: -360 }}
           transition={{ duration: 25, repeat: Infinity, ease: "linear" }}
-          className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-primary-gold/10 rounded-full blur-3xl"
+          className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-brand-yellow/10 rounded-full blur-3xl"
         />
       </div>
 
@@ -37,7 +38,7 @@ const ContactCTA = () => {
             transition={{ delay: 0.2, duration: 0.6 }}
             className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full mb-8"
           >
-            <Sparkles className="text-primary-gold" size={20} />
+            <Sparkles className="text-brand-yellow" size={20} />
             <span className="text-white font-medium">Ready to Start?</span>
           </motion.div>
 
@@ -47,7 +48,7 @@ const ContactCTA = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.4, duration: 0.8 }}
-            className="text-3xl md:text-5xl lg:text-6xl font-playfair font-bold mb-6 leading-tight"
+            className="text-3xl md:text-5xl lg:text-6xl font-playfair font-bold mb-6 leading-tight text-white"
           >
             Let's Build Something
             <br />
@@ -73,11 +74,11 @@ const ContactCTA = () => {
             transition={{ delay: 0.8, duration: 0.8 }}
             className="flex flex-col sm:flex-row gap-4 justify-center items-center"
           >
-            <Link href="/contact" className="bg-gradient-to-r from-primary-pink to-primary-gold text-white px-8 py-4 rounded-full font-medium transition-all duration-300 hover:shadow-lg hover:scale-105 group">
+            <Link href="/contact" className="bg-gradient-to-r from-brand-pink to-brand-yellow text-white px-8 py-4 rounded-full font-medium transition-all duration-300 hover:shadow-lg hover:scale-105 group">
               Start Your Project
               <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform inline" size={20} />
             </Link>
-            <Link href="/portfolio" className="border-2 border-white text-white px-8 py-4 rounded-full font-medium transition-all duration-300 hover:bg-white hover:text-primary-charcoal">
+            <Link href="/portfolio" className="border-2 border-white text-white px-8 py-4 rounded-full font-medium transition-all duration-300 hover:bg-white hover:text-brand-dark">
               View Our Work
             </Link>
           </motion.div>

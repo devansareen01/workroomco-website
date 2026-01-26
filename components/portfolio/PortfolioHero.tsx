@@ -12,7 +12,7 @@ const PortfolioHero = () => {
           transition={{ duration: 0.8 }}
           className="text-center max-w-4xl mx-auto"
         >
-          <h1 className="text-4xl md:text-6xl font-playfair font-bold text-primary-charcoal mb-6">
+          <h1 className="text-4xl md:text-6xl font-playfair font-bold text-brand-dark mb-6">
             Our <span className="gradient-text">Portfolio</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 leading-relaxed">

@@ -30,7 +30,7 @@ const Navbar = () => {
     <motion.nav
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50  transition-all duration-300 ${
         scrolled ? 'bg-white/95 backdrop-blur-md shadow-lg' : 'bg-transparent'
       }`}
     >
@@ -45,7 +45,7 @@ const Navbar = () => {
               height={56}
               className="w-12 h-12 md:w-14 md:h-14 rounded-full object-cover"
             />
-            <span className="text-2xl md:text-3xl font-playfair font-bold text-primary-charcoal">
+            <span className="text-2xl md:text-3xl font-playfair font-bold text-brand-dark">
               Workroomco
             </span>
           </Link>
@@ -56,7 +56,7 @@ const Navbar = () => {
               <Link
                 key={item.name}
                 href={item.href}
-                className="text-primary-charcoal hover:text-primary-pink transition-colors duration-300 font-medium"
+                className="text-brand-dark hover:text-primary-pink transition-colors duration-300 font-medium"
               >
                 {item.name}
               </Link>
@@ -69,7 +69,7 @@ const Navbar = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="md:hidden p-2 text-primary-charcoal"
+            className="md:hidden p-2 text-brand-dark"
           >
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
@@ -90,7 +90,7 @@ const Navbar = () => {
                     key={item.name}
                     href={item.href}
                     onClick={() => setIsOpen(false)}
-                    className="block text-primary-charcoal hover:text-primary-pink transition-colors duration-300 font-medium py-2"
+                    className="block text-brand-dark hover:text-primary-pink transition-colors duration-300 font-medium py-2"
                   >
                     {item.name}
                   </Link>

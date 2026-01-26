@@ -66,7 +66,7 @@ const ContactInfo = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-3xl font-bold text-primary-charcoal mb-8">
+          <h2 className="text-3xl font-bold text-brand-dark mb-8">
             Get in Touch
           </h2>
 
@@ -81,11 +81,11 @@ const ContactInfo = () => {
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 className="flex items-start space-x-4 p-6 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300"
               >
-                <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-primary-pink to-primary-gold rounded-xl flex items-center justify-center">
+                <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-brand-pink to-brand-yellow rounded-xl flex items-center justify-center">
                   <method.icon className="text-white" size={20} />
                 </div>
                 <div>
-                  <h3 className="text-lg font-bold text-primary-charcoal mb-2">
+                  <h3 className="text-lg font-bold text-brand-dark mb-2">
                     {method.title}
                   </h3>
                   <div className="space-y-1 mb-2">
@@ -96,7 +96,7 @@ const ContactInfo = () => {
                             href={method.link} 
                             target="_blank" 
                             rel="noopener noreferrer"
-                            className="hover:text-primary-gold transition-colors"
+                            className="hover:text-brand-yellow transition-colors"
                           >
                             {detail}
                           </a>
@@ -121,13 +121,13 @@ const ContactInfo = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.4 }}
           >
-            <h3 className="text-2xl font-bold text-primary-charcoal mb-6">
+            <h3 className="text-2xl font-bold text-brand-dark mb-6">
               Frequently Asked Questions
             </h3>
             <div className="space-y-4">
               {faqs.map((faq, index) => (
                 <div key={index} className="bg-white rounded-2xl p-6 shadow-lg">
-                  <h4 className="text-lg font-semibold text-primary-charcoal mb-3">
+                  <h4 className="text-lg font-semibold text-brand-dark mb-3">
                     {faq.question}
                   </h4>
                   <p className="text-gray-600 leading-relaxed">
@@ -144,10 +144,10 @@ const ContactInfo = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className="mt-12 p-6 bg-gradient-to-r from-primary-charcoal to-gray-900 rounded-2xl text-white"
+            className="mt-12 p-6 bg-gradient-to-r from-brand-dark to-gray-900 rounded-2xl text-white"
           >
             <div className="flex items-center space-x-3 mb-4">
-              <Clock className="text-primary-gold" size={24} />
+              <Clock className="text-brand-yellow" size={24} />
               <h3 className="text-xl font-bold">Business Hours</h3>
             </div>
             <div className="space-y-2 text-gray-300">

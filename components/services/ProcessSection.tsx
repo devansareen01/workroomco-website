@@ -45,7 +45,7 @@ const ProcessSection = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-5xl font-playfair font-bold text-primary-charcoal mb-6">
+          <h2 className="text-3xl md:text-5xl font-playfair font-bold text-brand-dark mb-6">
             Our Work Process
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -55,7 +55,7 @@ const ProcessSection = () => {
 
         <div className="relative">
           {/* Timeline Line */}
-          <div className="hidden lg:block absolute top-1/2 left-0 right-0 h-0.5 bg-gradient-to-r from-primary-pink to-primary-gold transform -translate-y-1/2"></div>
+          <div className="hidden lg:block absolute top-1/2 left-0 right-0 h-0.5 bg-gradient-to-r from-brand-pink to-brand-yellow transform -translate-y-1/2"></div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {steps.map((step, index) => (
@@ -74,13 +74,13 @@ const ProcessSection = () => {
                       <step.icon className="text-white" size={28} />
                     </div>
                     <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-24 h-24 bg-white rounded-full border-4 border-gray-100"></div>
-                    <div className="absolute -top-2 -right-2 w-8 h-8 bg-primary-gold rounded-full flex items-center justify-center text-white text-sm font-bold z-20">
+                    <div className="absolute -top-2 -right-2 w-8 h-8 bg-brand-yellow rounded-full flex items-center justify-center text-white text-sm font-bold z-20">
                       {step.number}
                     </div>
                   </div>
 
                   {/* Content */}
-                  <h3 className="text-2xl font-bold text-primary-charcoal mb-4">
+                  <h3 className="text-2xl font-bold text-brand-dark mb-4">
                     {step.title}
                   </h3>
                   <p className="text-gray-600 leading-relaxed">
@@ -107,7 +107,7 @@ const ProcessSection = () => {
             { number: '98%', label: 'Client Satisfaction' },
           ].map((stat, index) => (
             <div key={index} className="text-center">
-              <div className="text-2xl md:text-3xl font-bold text-primary-charcoal mb-2">
+              <div className="text-2xl md:text-3xl font-bold text-brand-dark mb-2">
                 {stat.number}
               </div>
               <div className="text-gray-600 text-sm md:text-base">{stat.label}</div>

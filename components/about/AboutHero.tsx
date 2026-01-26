@@ -14,7 +14,7 @@ const AboutHero = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h1 className="text-4xl md:text-6xl font-playfair font-bold text-primary-charcoal mb-6">
+            <h1 className="text-4xl md:text-6xl font-playfair font-bold text-brand-dark mb-6">
               About <span className="gradient-text">Workroomco</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 leading-relaxed mb-8">
@@ -41,7 +41,7 @@ const AboutHero = () => {
                 className="rounded-2xl shadow-2xl"
               />
               <div className="absolute -bottom-6 -left-6 w-32 h-32 bg-primary-pink/20 rounded-full blur-3xl"></div>
-              <div className="absolute -top-6 -right-6 w-24 h-24 bg-primary-gold/20 rounded-full blur-2xl"></div>
+              <div className="absolute -top-6 -right-6 w-24 h-24 bg-brand-yellow/20 rounded-full blur-2xl"></div>
             </div>
           </motion.div>
         </div>

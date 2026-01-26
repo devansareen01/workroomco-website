@@ -86,7 +86,7 @@ const ServicesList = () => {
                 <div className={`inline-flex items-center justify-center w-20 h-20 rounded-2xl bg-gradient-to-r ${service.color} mb-6`}>
                   <service.icon className="text-white" size={32} />
                 </div>
-                <h2 className="text-3xl md:text-4xl font-playfair font-bold text-primary-charcoal mb-4">
+                <h2 className="text-3xl md:text-4xl font-playfair font-bold text-brand-dark mb-4">
                   {service.category}
                 </h2>
                 <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -113,7 +113,7 @@ const ServicesList = () => {
                       </div>
 
                       {/* Content */}
-                      <h3 className="text-lg font-bold text-primary-charcoal mb-3 group-hover:text-primary-pink transition-colors">
+                      <h3 className="text-lg font-bold text-brand-dark mb-3 group-hover:text-primary-pink transition-colors">
                         {item.title}
                       </h3>
                       <p className="text-gray-600 text-sm leading-relaxed mb-4">
@@ -123,7 +123,7 @@ const ServicesList = () => {
                       {/* CTA */}
                       <Link 
                         href="/contact" 
-                        className="inline-flex items-center text-primary-charcoal hover:text-primary-pink transition-colors font-medium text-sm group"
+                        className="inline-flex items-center text-brand-dark hover:text-primary-pink transition-colors font-medium text-sm group"
                       >
                         Request Quote
                         <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={14} />

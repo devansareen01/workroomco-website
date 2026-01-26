@@ -61,7 +61,7 @@ const FeaturedWorks = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-5xl font-playfair font-bold text-primary-charcoal mb-6">
+          <h2 className="text-3xl md:text-5xl font-playfair font-bold text-brand-dark mb-6">
             Featured Works
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -106,7 +106,7 @@ const FeaturedWorks = () => {
                   <div className="text-sm text-primary-pink font-medium mb-2">
                     {work.category}
                   </div>
-                  <h3 className="text-xl font-bold text-primary-charcoal mb-3 group-hover:text-primary-pink transition-colors">
+                  <h3 className="text-xl font-bold text-brand-dark mb-3 group-hover:text-primary-pink transition-colors">
                     {work.title}
                   </h3>
                   <p className="text-gray-600 leading-relaxed">

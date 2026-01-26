@@ -107,7 +107,7 @@ const PortfolioGallery = () => {
               onClick={() => setActiveFilter(filter)}
               className={`px-6 py-3 rounded-full font-medium transition-all duration-300 ${
                 activeFilter === filter
-                  ? 'bg-gradient-to-r from-primary-pink to-primary-gold text-white shadow-lg'
+                  ? 'bg-gradient-to-r from-brand-pink to-brand-yellow text-white shadow-lg'
                   : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
               }`}
             >
@@ -161,7 +161,7 @@ const PortfolioGallery = () => {
                     <div className="text-sm text-primary-pink font-medium mb-2">
                       {project.category}
                     </div>
-                    <h3 className="text-xl font-bold text-primary-charcoal mb-3 group-hover:text-primary-pink transition-colors">
+                    <h3 className="text-xl font-bold text-brand-dark mb-3 group-hover:text-primary-pink transition-colors">
                       {project.title}
                     </h3>
                     <p className="text-gray-600 leading-relaxed text-sm">
@@ -213,7 +213,7 @@ const PortfolioGallery = () => {
                   <div className="text-sm text-primary-pink font-medium mb-2">
                     {selectedProject.category}
                   </div>
-                  <h2 className="text-3xl font-bold text-primary-charcoal mb-4">
+                  <h2 className="text-3xl font-bold text-brand-dark mb-4">
                     {selectedProject.title}
                   </h2>
                   <p className="text-gray-600 leading-relaxed mb-6">
@@ -222,7 +222,7 @@ const PortfolioGallery = () => {
 
                   {/* Technologies */}
                   <div className="mb-6">
-                    <h3 className="text-lg font-semibold text-primary-charcoal mb-3">
+                    <h3 className="text-lg font-semibold text-brand-dark mb-3">
                       Technologies Used
                     </h3>
                     <div className="flex flex-wrap gap-2">

@@ -4,7 +4,7 @@ import { Mail, Phone, Instagram, Facebook, Twitter } from 'lucide-react'
 
 const Footer = () => {
   return (
-    <footer className="bg-primary-charcoal text-white">
+    <footer className="bg-brand-dark text-white">
       <div className="container-custom py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand Section */}
@@ -37,7 +37,7 @@ const Footer = () => {
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-primary-gold">Quick Links</h3>
+            <h3 className="text-lg font-semibold mb-4 text-brand-yellow">Quick Links</h3>
             <ul className="space-y-2">
               <li><Link href="/" className="text-gray-300 hover:text-white transition-colors">Home</Link></li>
               <li><Link href="/services" className="text-gray-300 hover:text-white transition-colors">Services</Link></li>
@@ -49,7 +49,7 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-primary-gold">Contact Info</h3>
+            <h3 className="text-lg font-semibold mb-4 text-brand-yellow">Contact Info</h3>
             <div className="space-y-3">
               <div className="flex items-center space-x-2">
                 <Phone size={16} />

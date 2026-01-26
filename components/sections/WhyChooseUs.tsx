@@ -43,7 +43,7 @@ const WhyChooseUs = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-3xl md:text-5xl font-playfair font-bold text-primary-charcoal mb-6">
+            <h2 className="text-3xl md:text-5xl font-playfair font-bold text-brand-dark mb-6">
               Why Choose <span className="gradient-text">Workroomco</span>?
             </h2>
             <p className="text-xl text-gray-600 mb-12 leading-relaxed">
@@ -60,11 +60,14 @@ const WhyChooseUs = () => {
                   transition={{ duration: 0.6, delay: index * 0.1 }}
                   className="flex items-start space-x-4"
                 >
-                  <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-primary-pink to-primary-gold rounded-xl flex items-center justify-center">
+                  <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-pink-600 to-yellow-600 
+rounded-xl flex items-center justify-center 
+shadow-md transition-transform duration-300 hover:scale-105 hover:from-pink-700 hover:to-yellow-700
+">
                     <feature.icon className="text-white" size={24} />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-primary-charcoal mb-2">
+                    <h3 className="text-xl font-bold text-brand-dark mb-2">
                       {feature.title}
                     </h3>
                     <p className="text-gray-600 leading-relaxed">
@@ -85,24 +88,24 @@ const WhyChooseUs = () => {
             className="relative"
           >
             <div className="relative">
-              {/* Main Card */}
-              <div className="glass-card p-8 relative z-10">
-                <div className="text-center">
-                  <div className="text-4xl font-bold text-primary-charcoal mb-2">98%</div>
-                  <div className="text-gray-600 mb-6">Client Satisfaction Rate</div>
-                  
-                  <div className="grid grid-cols-2 gap-4 text-center">
-                    <div>
-                      <div className="text-2xl font-bold text-primary-pink mb-1">100+</div>
-                      <div className="text-sm text-gray-600">Projects</div>
-                    </div>
-                    <div>
-                      <div className="text-2xl font-bold text-primary-gold mb-1">50+</div>
-                      <div className="text-sm text-gray-600">Clients</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+             {/* Main Card */}
+<div className="glass-card p-8 relative z-10">
+  <div className="text-center">
+    <div className="text-4xl font-bold text-neutral-900 mb-2">98%</div>
+    <div className="text-gray-600 mb-6">Client Satisfaction Rate</div>
+    
+    <div className="grid grid-cols-2 gap-4 text-center">
+      <div>
+        <div className="text-2xl font-bold text-pink-600 mb-1">100+</div>
+        <div className="text-sm text-gray-600">Projects</div>
+      </div>
+      <div>
+        <div className="text-2xl font-bold text-yellow-600 mb-1">50+</div>
+        <div className="text-sm text-gray-600">Clients</div>
+      </div>
+    </div>
+  </div>
+</div>
 
               {/* Floating Elements */}
               <motion.div
@@ -113,7 +116,7 @@ const WhyChooseUs = () => {
               <motion.div
                 animate={{ y: [0, 10, 0] }}
                 transition={{ duration: 4, repeat: Infinity }}
-                className="absolute -bottom-4 -left-4 w-16 h-16 bg-primary-gold/20 rounded-full blur-xl"
+                className="absolute -bottom-4 -left-4 w-16 h-16 bg-brand-yellow/20 rounded-full blur-xl"
               />
             </div>
           </motion.div>
