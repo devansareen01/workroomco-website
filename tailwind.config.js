@@ -8,17 +8,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: {
-          pink: '#f5c1cc',
-          beige: '#f9f5f1',
-          charcoal: '#111111',
-          gold: '#d4af37',
-        }
+        brand: {
+          pink: '#db2777',   // pink-600
+          yellow: '#ca8a04', // yellow-600
+          dark: '#111827',   // neutral-900
+        },
       },
       fontFamily: {
-        'playfair': ['Playfair Display', 'serif'],
-        'inter': ['Inter', 'sans-serif'],
-        'poppins': ['Poppins', 'sans-serif'],
+        playfair: ['Playfair Display', 'serif'],
+        inter: ['Inter', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
       },
       animation: {
         'fade-in': 'fadeIn 0.5s ease-in-out',
@@ -37,9 +36,9 @@ module.exports = {
         float: {
           '0%, 100%': { transform: 'translateY(0px)' },
           '50%': { transform: 'translateY(-10px)' },
-        }
-      }
+        },
+      },
     },
   },
   plugins: [],
-}
+};

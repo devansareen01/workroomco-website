@@ -35,7 +35,7 @@ const AboutMission = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-5xl font-playfair font-bold text-primary-charcoal mb-6">
+          <h2 className="text-3xl md:text-5xl font-playfair font-bold text-brand-dark mb-6">
             Mission, Vision & Values
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -61,7 +61,7 @@ const AboutMission = () => {
                 </div>
 
                 {/* Content */}
-                <h3 className="text-2xl font-bold text-primary-charcoal mb-4 group-hover:text-primary-pink transition-colors">
+                <h3 className="text-2xl font-bold text-brand-dark mb-4 group-hover:text-primary-pink transition-colors">
                   {value.title}
                 </h3>
                 <p className="text-gray-600 leading-relaxed">

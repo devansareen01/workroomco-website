@@ -22,7 +22,7 @@ const AboutStory = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <h2 className="text-3xl md:text-5xl font-playfair font-bold text-primary-charcoal mb-6">
+            <h2 className="text-3xl md:text-5xl font-playfair font-bold text-brand-dark mb-6">
               Our Story
             </h2>
             <div className="space-y-6 text-gray-600 leading-relaxed">
@@ -55,10 +55,10 @@ const AboutStory = () => {
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 className="text-center p-6 bg-gradient-to-br from-white to-primary-beige rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300"
               >
-                <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-r from-primary-pink to-primary-gold rounded-2xl flex items-center justify-center">
+                <div className="w-16 h-16 mx-auto mb-4 bg-gradient-to-r from-brand-pink to-brand-yellow rounded-2xl flex items-center justify-center">
                   <stat.icon className="text-white" size={28} />
                 </div>
-                <div className="text-3xl font-bold text-primary-charcoal mb-2">
+                <div className="text-3xl font-bold text-brand-dark mb-2">
                   {stat.number}
                 </div>
                 <div className="text-gray-600 font-medium">

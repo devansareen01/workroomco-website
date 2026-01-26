@@ -41,7 +41,7 @@ const Testimonials = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-5xl font-playfair font-bold text-primary-charcoal mb-6">
+          <h2 className="text-3xl md:text-5xl font-playfair font-bold text-brand-dark mb-6">
             What Our Clients Say
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -62,7 +62,7 @@ const Testimonials = () => {
               <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 relative">
                 {/* Quote Icon */}
                 <div className="absolute -top-4 left-8">
-                  <div className="w-8 h-8 bg-gradient-to-r from-primary-pink to-primary-gold rounded-full flex items-center justify-center">
+                  <div className="w-8 h-8 bg-gradient-to-r from-brand-pink to-brand-yellow rounded-full flex items-center justify-center">
                     <Quote className="text-white" size={16} />
                   </div>
                 </div>
@@ -70,7 +70,7 @@ const Testimonials = () => {
                 {/* Rating */}
                 <div className="flex items-center mb-4 pt-4">
                   {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} className="text-primary-gold fill-current" size={20} />
+                    <Star key={i} className="text-brand-yellow fill-current" size={20} />
                   ))}
                 </div>
 
@@ -87,7 +87,7 @@ const Testimonials = () => {
                     className="w-12 h-12 rounded-full object-cover mr-4"
                   />
                   <div>
-                    <div className="font-bold text-primary-charcoal">
+                    <div className="font-bold text-brand-dark">
                       {testimonial.name}
                     </div>
                     <div className="text-sm text-gray-500">
@@ -115,7 +115,7 @@ const Testimonials = () => {
             { number: '24/7', label: 'Support Available' },
           ].map((stat, index) => (
             <div key={index} className="text-center">
-              <div className="text-3xl md:text-4xl font-bold text-primary-charcoal mb-2">
+              <div className="text-3xl md:text-4xl font-bold text-brand-dark mb-2">
                 {stat.number}
               </div>
               <div className="text-gray-600">{stat.label}</div>

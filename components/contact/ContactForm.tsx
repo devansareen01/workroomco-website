@@ -66,7 +66,7 @@ const ContactForm = () => {
             <div className="w-20 h-20 mx-auto mb-6 bg-green-100 rounded-full flex items-center justify-center">
               <CheckCircle className="text-green-600" size={40} />
             </div>
-            <h2 className="text-3xl font-bold text-primary-charcoal mb-4">
+            <h2 className="text-3xl font-bold text-brand-dark mb-4">
               Thank You!
             </h2>
             <p className="text-xl text-gray-600">
@@ -87,7 +87,7 @@ const ContactForm = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-3xl font-bold text-primary-charcoal mb-8">
+          <h2 className="text-3xl font-bold text-brand-dark mb-8">
             Send us a Message
           </h2>
           
@@ -190,7 +190,7 @@ const ContactForm = () => {
               className={`w-full py-4 px-6 rounded-lg font-medium transition-all duration-300 flex items-center justify-center space-x-2 ${
                 isSubmitting
                   ? 'bg-gray-400 cursor-not-allowed'
-                  : 'bg-gradient-to-r from-primary-pink to-primary-gold hover:shadow-lg'
+                  : 'bg-gradient-to-r from-brand-pink to-brand-yellow hover:shadow-lg'
               } text-white`}
             >
               {isSubmitting ? (
