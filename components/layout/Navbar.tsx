@@ -39,7 +39,7 @@ const Navbar = () => {
           <Link href="/" className="flex items-center gap-2 md:gap-3">
             <Image
               src="/logo.png"
-              alt="Workroomco Logo"
+              alt="Workroom Logo"
               width={613}
               height={380}
               className="h-9 md:h-11 w-auto object-contain"
@@ -47,7 +47,7 @@ const Navbar = () => {
               priority
             />
             <span className="text-2xl md:text-3xl font-playfair font-bold text-brand-dark leading-none">
-              Workroomco
+              Workroom
             </span>
           </Link>
 

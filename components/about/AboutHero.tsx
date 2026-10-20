@@ -15,13 +15,13 @@ const AboutHero = () => {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-4xl md:text-6xl font-playfair font-bold text-brand-dark mb-6">
-              About <span className="gradient-text">Workroomco</span>
+              About <span className="gradient-text">Workroom</span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-600 leading-relaxed mb-8">
               We are passionate creators who believe in the power of design, technology, and craftsmanship to transform ideas into beautiful realities.
             </p>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Founded with a vision to bridge the gap between digital innovation and traditional craftsmanship, Workroomco has grown into a creative studio that serves clients worldwide with premium quality services.
+              Founded with a vision to bridge the gap between digital innovation and traditional craftsmanship, Workroom has grown into a creative studio that serves clients worldwide with premium quality services.
             </p>
           </motion.div>
 

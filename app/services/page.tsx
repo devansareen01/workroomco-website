@@ -5,7 +5,7 @@ import ProcessSection from '@/components/services/ProcessSection'
 import ContactCTA from '@/components/sections/ContactCTA'
 
 export const metadata: Metadata = {
-  title: 'Our Services - Workroomco',
+  title: 'Our Services - Workroom',
   description: 'Comprehensive creative services including web development, UI/UX design, graphic design, handmade crafts, and custom event orders.',
 }
 

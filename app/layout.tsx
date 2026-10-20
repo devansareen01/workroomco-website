@@ -6,15 +6,15 @@ import WhatsAppFloat from '@/components/ui/WhatsAppFloat'
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://workroomco.com'),
-  title: 'Workroomco - Design. Develop. Craft. Create',
+  title: 'Workroom - Design. Develop. Craft. Create',
   description: 'Premium creative services including web development, UI/UX design, graphic design, and handmade crafts. Custom solutions for your business needs.',
   keywords: 'web development, UI/UX design, graphic design, handmade crafts, custom orders, creative services',
-  authors: [{ name: 'Workroomco' }],
+  authors: [{ name: 'Workroom' }],
   openGraph: {
-    title: 'Workroomco - Creative Services & Handmade Products',
+    title: 'Workroom - Creative Services & Handmade Products',
     description: 'Design. Develop. Craft. Create — All Under One Roof.',
     url: 'https://workroomco.com',
-    siteName: 'Workroomco',
+    siteName: 'Workroom',
     images: [
       {
         url: '/logo.png',
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Workroomco - Creative Services',
+    title: 'Workroom - Creative Services',
     description: 'Design. Develop. Craft. Create — All Under One Roof.',
     images: ['/logo.png'],
   },

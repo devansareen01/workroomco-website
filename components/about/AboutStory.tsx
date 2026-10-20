@@ -27,7 +27,7 @@ const AboutStory = () => {
             </h2>
             <div className="space-y-6 text-gray-600 leading-relaxed">
               <p>
-                Workroomco began as a small creative studio with a big dream: to create a space where digital innovation meets traditional craftsmanship. What started as a passion project has evolved into a comprehensive creative service provider.
+                Workroom began as a small creative studio with a big dream: to create a space where digital innovation meets traditional craftsmanship. What started as a passion project has evolved into a comprehensive creative service provider.
               </p>
               <p>
                 We believe that every project, whether it's a cutting-edge website or a handcrafted wedding invitation, deserves the same level of attention, creativity, and care. This philosophy has guided us through every client relationship and every project we undertake.

@@ -9,7 +9,7 @@ const Testimonials = () => {
       id: 1,
       name: 'Harpreet Kaur',
       role: 'Founder, Phulkari Threads — Ludhiana',
-      content: 'Workroomco built our boutique website from scratch and it finally feels like our brand. Customers from Canada and the UK now order directly through the site. Very professional and always available on WhatsApp.',
+      content: 'Workroom built our boutique website from scratch and it finally feels like our brand. Customers from Canada and the UK now order directly through the site. Very professional and always available on WhatsApp.',
       rating: 5,
     },
     {

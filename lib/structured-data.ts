@@ -1,7 +1,7 @@
 export const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  "name": "Workroomco",
+  "name": "Workroom",
   "description": "Creative services including web development, UI/UX design, graphic design, and handmade crafts",
   "url": "https://workroomco.com",
   "logo": "https://workroomco.com/logo.png",
@@ -16,7 +16,7 @@ export const organizationSchema = {
     "addressCountry": "IN"
   },
   "sameAs": [
-    "https://www.instagram.com/workroom_co/",
+    "https://www.instagram.com/workroom_studios/",
     "https://facebook.com/workroomco"
   ],
   "offers": [
@@ -46,11 +46,11 @@ export const organizationSchema = {
 export const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "Workroomco",
+  "name": "Workroom",
   "url": "https://workroomco.com",
   "description": "Design. Develop. Craft. Create — All Under One Roof",
   "publisher": {
     "@type": "Organization",
-    "name": "Workroomco"
+    "name": "Workroom"
   }
 }

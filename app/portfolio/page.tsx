@@ -4,7 +4,7 @@ import PortfolioGallery from '@/components/portfolio/PortfolioGallery'
 import ContactCTA from '@/components/sections/ContactCTA'
 
 export const metadata: Metadata = {
-  title: 'Portfolio - Workroomco',
+  title: 'Portfolio - Workroom',
   description: 'Explore our portfolio of successful projects across web development, UI/UX design, graphic design, and handmade crafts.',
 }
 

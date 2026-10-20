@@ -20,9 +20,9 @@ const ContactInfo = () => {
     {
       icon: Instagram,
       title: 'Instagram',
-      details: ['@workroom_co'],
+      details: ['@workroom_studios'],
       description: 'Follow us for latest updates and behind-the-scenes content',
-      link: 'https://www.instagram.com/workroom_co/'
+      link: 'https://www.instagram.com/workroom_studios/'
     },
     {
       icon: Clock,

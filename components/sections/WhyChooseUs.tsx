@@ -44,7 +44,7 @@ const WhyChooseUs = () => {
             transition={{ duration: 0.8 }}
           >
             <h2 className="text-3xl md:text-5xl font-playfair font-bold text-brand-dark mb-6">
-              Why Choose <span className="gradient-text">Workroomco</span>?
+              Why Choose <span className="gradient-text">Workroom</span>?
             </h2>
             <p className="text-xl text-gray-600 mb-12 leading-relaxed">
               We combine creativity, technology, and craftsmanship to deliver exceptional results that exceed expectations. Here's what sets us apart:

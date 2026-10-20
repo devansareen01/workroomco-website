@@ -4,8 +4,8 @@ import ContactForm from '@/components/contact/ContactForm'
 import ContactInfo from '@/components/contact/ContactInfo'
 
 export const metadata: Metadata = {
-  title: 'Contact Us - Workroomco',
-  description: 'Get in touch with Workroomco for your creative projects. We\'re here to help bring your vision to life.',
+  title: 'Contact Us - Workroom',
+  description: 'Get in touch with Workroom for your creative projects. We\'re here to help bring your vision to life.',
 }
 
 export default function ContactPage() {

@@ -13,20 +13,20 @@ const Footer = () => {
               <div className="bg-brand-ivory rounded-xl p-2">
                 <Image
                   src="/logo.png"
-                  alt="Workroomco Logo"
+                  alt="Workroom Logo"
                   width={613}
                   height={380}
                   className="h-9 md:h-10 w-auto object-contain"
                   quality={100}
                 />
               </div>
-              <span className="text-3xl font-playfair font-bold text-brand-ivory leading-none">Workroomco</span>
+              <span className="text-3xl font-playfair font-bold text-brand-ivory leading-none">Workroom</span>
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
               Design. Develop. Craft. Create — All Under One Roof. We bring your creative visions to life with premium quality and personalized service.
             </p>
             <div className="flex space-x-4">
-              <a href="https://www.instagram.com/workroom_co/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-primary-pink transition-colors">
+              <a href="https://www.instagram.com/workroom_studios/" target="_blank" rel="noopener noreferrer" className="text-gray-300 hover:text-primary-pink transition-colors">
                 <Instagram size={24} />
               </a>
               <a href="#" className="text-gray-300 hover:text-primary-pink transition-colors">
@@ -72,7 +72,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-700 mt-12 pt-8 text-center">
           <p className="text-gray-300">
-            © 2026 Workroomco. All rights reserved. Made with ❤️ for creative minds.
+            © 2026 Workroom. All rights reserved. Made with ❤️ for creative minds.
           </p>
         </div>
       </div>
