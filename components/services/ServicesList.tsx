@@ -21,7 +21,7 @@ const ServicesList = () => {
     {
       category: 'Web Development',
       icon: Code,
-      color: 'from-blue-500 to-purple-600',
+      color: 'from-brand-pink to-brand-dark',
       description: 'Modern, responsive websites and web applications built with cutting-edge technologies.',
       items: [
         { icon: Globe, title: 'Business Websites', description: 'Professional websites that represent your brand perfectly' },
@@ -33,7 +33,7 @@ const ServicesList = () => {
     {
       category: 'UI/UX & Graphic Design',
       icon: Palette,
-      color: 'from-pink-500 to-rose-600',
+      color: 'from-brand-yellow to-brand-forest',
       description: 'Beautiful interfaces and visual communications that captivate and engage your audience.',
       items: [
         { icon: Smartphone, title: 'UI Design', description: 'Intuitive user interfaces that delight users' },
@@ -45,7 +45,7 @@ const ServicesList = () => {
     {
       category: 'Handmade Crafts & Cards',
       icon: Gift,
-      color: 'from-green-500 to-emerald-600',
+      color: 'from-brand-pink to-brand-yellow',
       description: 'Unique handcrafted items made with love, care, and attention to every detail.',
       items: [
         { icon: Heart, title: 'Greeting Cards', description: 'Personalized cards for every occasion' },
@@ -57,7 +57,7 @@ const ServicesList = () => {
     {
       category: 'Event Custom Work',
       icon: Calendar,
-      color: 'from-orange-500 to-red-600',
+      color: 'from-brand-dark to-brand-yellow',
       description: 'Specialized designs for birthdays, weddings, and special events to make moments memorable.',
       items: [
         { icon: Cake, title: 'Birthday Designs', description: 'Custom birthday decorations and themes' },

@@ -6,8 +6,7 @@ import { ArrowRight, Sparkles } from 'lucide-react'
 
 const ContactCTA = () => {
   return (
-    <section className="section-padding bg-gradient-to-r from-neutral-900 via-neutral-800 to-neutral-900 text-white relative overflow-hidden
-">
+    <section className="section-padding bg-gradient-to-r from-brand-dark via-brand-forest to-brand-dark text-white relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
         <motion.div
@@ -38,7 +37,7 @@ const ContactCTA = () => {
             transition={{ delay: 0.2, duration: 0.6 }}
             className="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full mb-8"
           >
-            <Sparkles className="text-brand-yellow" size={20} />
+            <Sparkles className="text-brand-pink" size={20} />
             <span className="text-white font-medium">Ready to Start?</span>
           </motion.div>
 
@@ -52,7 +51,7 @@ const ContactCTA = () => {
           >
             Let's Build Something
             <br />
-            <span className="gradient-text">Beautiful Together</span>
+            <span className="bg-gradient-to-r from-brand-pink to-brand-ivory bg-clip-text text-transparent">Beautiful Together</span>
           </motion.h2>
 
           {/* Description */}

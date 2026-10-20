@@ -144,11 +144,11 @@ const ContactInfo = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className="mt-12 p-6 bg-gradient-to-r from-brand-dark to-gray-900 rounded-2xl text-white"
+            className="mt-12 p-6 bg-gradient-to-r from-brand-dark to-brand-forest rounded-2xl text-white"
           >
             <div className="flex items-center space-x-3 mb-4">
-              <Clock className="text-brand-yellow" size={24} />
-              <h3 className="text-xl font-bold">Business Hours</h3>
+              <Clock className="text-brand-pink" size={24} />
+              <h3 className="text-xl font-bold text-white">Business Hours</h3>
             </div>
             <div className="space-y-2 text-gray-300">
               <div className="flex justify-between">

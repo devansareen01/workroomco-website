@@ -10,28 +10,28 @@ const ProcessSection = () => {
       title: 'Idea',
       icon: Lightbulb,
       description: 'We start by understanding your vision, goals, and requirements through detailed consultation.',
-      color: 'from-blue-500 to-purple-600'
+      color: 'from-brand-pink to-brand-dark'
     },
     {
       number: '2',
       title: 'Design',
       icon: Palette,
       description: 'Our creative team develops concepts, wireframes, and designs that bring your ideas to life.',
-      color: 'from-pink-500 to-rose-600'
+      color: 'from-brand-yellow to-brand-forest'
     },
     {
       number: '3',
       title: 'Develop',
       icon: Code,
       description: 'We build, craft, or code your project using the best practices and premium materials.',
-      color: 'from-green-500 to-emerald-600'
+      color: 'from-brand-pink to-brand-yellow'
     },
     {
       number: '4',
       title: 'Deliver',
       icon: Truck,
       description: 'Final testing, quality assurance, and delivery of your completed project with full support.',
-      color: 'from-orange-500 to-red-600'
+      color: 'from-brand-dark to-brand-yellow'
     }
   ]
 

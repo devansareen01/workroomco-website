@@ -60,9 +60,9 @@ const WhyChooseUs = () => {
                   transition={{ duration: 0.6, delay: index * 0.1 }}
                   className="flex items-start space-x-4"
                 >
-                  <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-pink-600 to-yellow-600 
+                  <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-r from-brand-pink to-brand-yellow 
 rounded-xl flex items-center justify-center 
-shadow-md transition-transform duration-300 hover:scale-105 hover:from-pink-700 hover:to-yellow-700
+shadow-md transition-transform duration-300 hover:scale-105 hover:brightness-110
 ">
                     <feature.icon className="text-white" size={24} />
                   </div>
@@ -91,16 +91,16 @@ shadow-md transition-transform duration-300 hover:scale-105 hover:from-pink-700 
              {/* Main Card */}
 <div className="glass-card p-8 relative z-10">
   <div className="text-center">
-    <div className="text-4xl font-bold text-neutral-900 mb-2">98%</div>
+    <div className="text-4xl font-bold text-brand-dark mb-2">98%</div>
     <div className="text-gray-600 mb-6">Client Satisfaction Rate</div>
     
     <div className="grid grid-cols-2 gap-4 text-center">
       <div>
-        <div className="text-2xl font-bold text-pink-600 mb-1">100+</div>
+        <div className="text-2xl font-bold text-brand-pink mb-1">100+</div>
         <div className="text-sm text-gray-600">Projects</div>
       </div>
       <div>
-        <div className="text-2xl font-bold text-yellow-600 mb-1">50+</div>
+        <div className="text-2xl font-bold text-brand-yellow mb-1">50+</div>
         <div className="text-sm text-gray-600">Clients</div>
       </div>
     </div>

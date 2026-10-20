@@ -11,28 +11,28 @@ const ServicesOverview = () => {
       title: 'Web Development',
       description: 'Custom websites, web applications, and digital solutions built with modern technologies.',
       features: ['Responsive Design', 'Fast Performance', 'SEO Optimized', 'Mobile First'],
-      color: 'from-blue-500 to-purple-600'
+      color: 'from-brand-pink to-brand-dark'
     },
     {
       icon: Palette,
       title: 'UI/UX & Graphic Design',
       description: 'Beautiful interfaces, brand identity, and visual communications that captivate your audience.',
       features: ['Brand Identity', 'UI/UX Design', 'Print Design', 'Social Media'],
-      color: 'from-pink-500 to-rose-600'
+      color: 'from-brand-yellow to-brand-forest'
     },
     {
       icon: Gift,
       title: 'Handmade Crafts',
       description: 'Unique handcrafted items, greeting cards, and personalized gifts made with love and care.',
       features: ['Greeting Cards', 'Gift Hampers', 'Scrapbooks', 'Custom Gifts'],
-      color: 'from-green-500 to-emerald-600'
+      color: 'from-brand-pink to-brand-yellow'
     },
     {
       icon: Calendar,
       title: 'Custom Event Orders',
       description: 'Specialized designs for birthdays, weddings, and special events to make your moments memorable.',
       features: ['Birthday Designs', 'Wedding Cards', 'Invitations', 'Event Packages'],
-      color: 'from-orange-500 to-red-600'
+      color: 'from-brand-dark to-brand-yellow'
     }
   ]
 

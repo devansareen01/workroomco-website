@@ -9,19 +9,19 @@ const AboutMission = () => {
       icon: Target,
       title: 'Our Mission',
       description: 'To empower businesses and individuals by transforming their creative visions into reality through innovative design, cutting-edge technology, and exceptional craftsmanship.',
-      color: 'from-blue-500 to-purple-600'
+      color: 'from-brand-pink to-brand-dark'
     },
     {
       icon: Eye,
       title: 'Our Vision',
       description: 'To become the leading creative studio that seamlessly blends digital innovation with traditional artistry, setting new standards for quality and creativity in every project.',
-      color: 'from-pink-500 to-rose-600'
+      color: 'from-brand-yellow to-brand-forest'
     },
     {
       icon: Heart,
       title: 'Our Values',
       description: 'Quality, creativity, integrity, and client satisfaction are at the core of everything we do. We believe in building lasting relationships through exceptional service and results.',
-      color: 'from-green-500 to-emerald-600'
+      color: 'from-brand-pink to-brand-yellow'
     }
   ]
 

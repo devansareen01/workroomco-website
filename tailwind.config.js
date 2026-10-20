@@ -9,9 +9,15 @@ module.exports = {
     extend: {
       colors: {
         brand: {
-          pink: '#db2777',   // pink-600
-          yellow: '#ca8a04', // yellow-600
-          dark: '#111827',   // neutral-900
+          pink: '#A85F50',   // Burnt Rose — selective creative accent
+          yellow: '#555842', // Olive Sage — primary accent
+          dark: '#30201F',   // Espresso — typography
+          ivory: '#F3E9E3',  // Blush Ivory — brand background
+          forest: '#1E211A', // deep olive from the brand board
+        },
+        primary: {
+          pink: '#A85F50',
+          beige: '#F3E9E3',
         },
       },
       fontFamily: {

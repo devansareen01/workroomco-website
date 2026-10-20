@@ -9,19 +9,18 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Brand Section */}
           <div className="lg:col-span-2">
-            <div className="flex items-center space-x-3 mb-4">
-              <Image
-                src="/logo.png"
-                alt="Workroomco Logo"
-                // 1. INCREASED RESOLUTION PROPS (Crispness)
-                width={200}   
-                height={200}
-                // 2. INCREASED VISIBLE SIZE (Visibility)
-                className="w-16 h-16 md:w-20 md:h-20 rounded-full object-cover"
-                // 3. MAX QUALITY
-                quality={100}
-              />
-              <span className="text-3xl font-playfair font-bold">Workroomco</span>
+            <div className="flex items-center gap-3 mb-4">
+              <div className="bg-brand-ivory rounded-xl p-2">
+                <Image
+                  src="/logo.png"
+                  alt="Workroomco Logo"
+                  width={613}
+                  height={380}
+                  className="h-9 md:h-10 w-auto object-contain"
+                  quality={100}
+                />
+              </div>
+              <span className="text-3xl font-playfair font-bold text-brand-ivory leading-none">Workroomco</span>
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
               Design. Develop. Craft. Create — All Under One Roof. We bring your creative visions to life with premium quality and personalized service.
@@ -37,11 +36,11 @@ const Footer = () => {
                 <Twitter size={24} />
               </a>
             </div>
-          </div>d
+          </div>
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-brand-yellow">Quick Links</h3>
+            <h3 className="text-lg font-semibold mb-4 text-brand-ivory">Quick Links</h3>
             <ul className="space-y-2">
               <li><Link href="/" className="text-gray-300 hover:text-white transition-colors">Home</Link></li>
               <li><Link href="/services" className="text-gray-300 hover:text-white transition-colors">Services</Link></li>
@@ -53,7 +52,7 @@ const Footer = () => {
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-lg font-semibold mb-4 text-brand-yellow">Contact Info</h3>
+            <h3 className="text-lg font-semibold mb-4 text-brand-ivory">Contact Info</h3>
             <div className="space-y-3">
               <div className="flex items-center space-x-2">
                 <Phone size={16} />

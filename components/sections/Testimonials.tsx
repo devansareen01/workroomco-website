@@ -7,29 +7,56 @@ const Testimonials = () => {
   const testimonials = [
     {
       id: 1,
-      name: 'Sarah Johnson',
-      role: 'CEO, TechStart',
-      content: 'Workroomco transformed our vision into a stunning website that perfectly represents our brand. Their attention to detail and creative approach exceeded our expectations.',
+      name: 'Harpreet Kaur',
+      role: 'Founder, Phulkari Threads — Ludhiana',
+      content: 'Workroomco built our boutique website from scratch and it finally feels like our brand. Customers from Canada and the UK now order directly through the site. Very professional and always available on WhatsApp.',
       rating: 5,
-      avatar: 'https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face'
     },
     {
       id: 2,
-      name: 'Michael Chen',
-      role: 'Marketing Director',
-      content: 'The handmade wedding invitations were absolutely beautiful! Every guest commented on how unique and elegant they were. Truly exceptional craftsmanship.',
+      name: 'Rohan & Ananya Malhotra',
+      role: 'Wedding Clients — Chandigarh',
+      content: 'Our handmade wedding invitations were the talk of the shaadi! Every card was crafted with so much love and detail. Both our families kept asking who designed them.',
       rating: 5,
-      avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face'
     },
     {
       id: 3,
-      name: 'Emily Rodriguez',
-      role: 'Boutique Owner',
-      content: 'From UI/UX design to the final website, everything was perfect. The team understood our needs and delivered beyond what we imagined. Highly recommended!',
+      name: 'Arjun Mehta',
+      role: 'Co-founder, ChaiCraft Café — Delhi',
+      content: 'They designed our logo, menu and Instagram creatives. The branding feels premium yet warm, exactly what we wanted for our café. Footfall went up noticeably after the launch.',
       rating: 5,
-      avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&h=100&fit=crop&crop=face'
-    }
+    },
+    {
+      id: 4,
+      name: 'Priya Sharma',
+      role: 'Mother of the Birthday Girl — Amritsar',
+      content: 'The birthday theme decor and custom gift hampers made my daughter\'s first birthday so special. Everything matched perfectly and was delivered on time. Highly recommended!',
+      rating: 5,
+    },
+    {
+      id: 5,
+      name: 'Vikram Iyer',
+      role: 'Product Manager, FinEdge Solutions — Bengaluru',
+      content: 'The UI/UX redesign of our dashboard was thoughtful and clean. The team understood our users and turned complex flows into something simple. Great communication throughout.',
+      rating: 5,
+    },
+    {
+      id: 6,
+      name: 'Sneha Kapoor',
+      role: 'Wellness Coach — Mumbai',
+      content: 'I got a scrapbook made for my parents\' 25th anniversary and they were in tears. Such a personal, beautiful piece of work. Will definitely order again for Diwali gifting.',
+      rating: 5,
+    },
   ]
+
+  const initials = (name: string) =>
+    name
+      .split(/\s|&/)
+      .filter(Boolean)
+      .slice(0, 2)
+      .map((part) => part[0])
+      .join('')
+      .toUpperCase()
 
   return (
     <section className="section-padding bg-gradient-to-br from-primary-beige to-white">
@@ -59,7 +86,7 @@ const Testimonials = () => {
               transition={{ duration: 0.6, delay: index * 0.2 }}
               className="group"
             >
-              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 relative">
+              <div className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2 relative h-full">
                 {/* Quote Icon */}
                 <div className="absolute -top-4 left-8">
                   <div className="w-8 h-8 bg-gradient-to-r from-brand-pink to-brand-yellow rounded-full flex items-center justify-center">
@@ -70,7 +97,7 @@ const Testimonials = () => {
                 {/* Rating */}
                 <div className="flex items-center mb-4 pt-4">
                   {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} className="text-brand-yellow fill-current" size={20} />
+                    <Star key={i} className="text-brand-pink fill-current" size={20} />
                   ))}
                 </div>
 
@@ -81,11 +108,9 @@ const Testimonials = () => {
 
                 {/* Author */}
                 <div className="flex items-center">
-                  <img
-                    src={testimonial.avatar}
-                    alt={testimonial.name}
-                    className="w-12 h-12 rounded-full object-cover mr-4"
-                  />
+                  <div className="w-12 h-12 rounded-full bg-gradient-to-br from-brand-pink to-brand-yellow text-brand-ivory font-semibold flex items-center justify-center mr-4 flex-shrink-0">
+                    {initials(testimonial.name)}
+                  </div>
                   <div>
                     <div className="font-bold text-brand-dark">
                       {testimonial.name}
